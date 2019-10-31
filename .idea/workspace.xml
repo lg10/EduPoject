@@ -6,7 +6,36 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a52b1c-9354-4e5e-8589-7c0d9a1f7995" name="Default Changelist" comment="" />
+    <list default="true" id="48a52b1c-9354-4e5e-8589-7c0d9a1f7995" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/hoook/action/TeacherLoginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/hoook/utils/md5/MD5Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/hoook/utils/md5/TestMD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/hoook/utils/vaildater/Vaildater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/cn/hoook/service/test/ITeacherServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EduPoject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EduPoject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/hoook/dao/ITeacherDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hoook/dao/ITeacherDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/hoook/service/ITeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hoook/service/test/ITeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/hoook/service/impl/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hoook/service/test/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SSM教务管理系统.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SSM教务管理系统.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/Teacher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Teacher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SSM教务管理系统.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SSM教务管理系统.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/hoook/dao/ITeacherDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/hoook/dao/ITeacherDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/hoook/service/ITeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/hoook/service/impl/TeacherServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/hoook/utils/dao/IDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/hoook/utils/dao/IDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/hoook/vo/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/hoook/vo/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/Teacher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/Teacher.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +50,13 @@
       <list>
         <option value="Jsp File" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -45,16 +78,23 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
-        <option name="jdkForImporter" value="13" />
+        <option name="jdkForImporter" value="12" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1SspIAtitCxZZDCxLI0ilgS3y6u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/hoook/utils/md5" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,11 +103,21 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.hoook.service.test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zahui\Desktop\EduPoject\src\main\java\cn\hoook\utils\md5" />
       <recent name="C:\Users\zahui\Desktop\EduPoject\src\main\resources" />
       <recent name="C:\Users\zahui\Desktop\EduPoject\src\main\resources\mapper" />
     </key>
@@ -84,7 +134,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ITeacherServiceTest">
+    <configuration name="TestMD5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.hoook.utils.md5.TestMD5" />
+      <module name="EduPoject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.hoook.utils.md5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ITeacherServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EduPoject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.hoook.service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.hoook.service.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.hoook.service.test.ITeacherServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -285,6 +363,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ITeacherServiceTest" />
+        <item itemvalue="Application.TestMD5" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -300,11 +384,27 @@
       <workItem from="1572363267237" duration="548000" />
       <workItem from="1572395514140" duration="3111000" />
       <workItem from="1572402707664" duration="5136000" />
-      <workItem from="1572415504883" duration="1020000" />
+      <workItem from="1572415504883" duration="4952000" />
+      <workItem from="1572421405415" duration="4683000" />
+      <workItem from="1572489578245" duration="237000" />
+      <workItem from="1572490040296" duration="3687000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

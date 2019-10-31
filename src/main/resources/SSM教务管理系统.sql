@@ -140,6 +140,6 @@ alter table tlogs add constraint FK_Reference_5 foreign key (tid)
       references teacher (tid) on delete restrict on update restrict;
 
 -- 增加测试数据
-INSERT INTO teacher (tid, name, password, photo,  flag) VALUE ('admin','小李','','myphoto.png','0')
+INSERT INTO teacher (tid, name, password, photo,  flag) VALUE ('admin','小李','9A92DE1957D1DE20599C68469B9355F1','myphoto.png','0')
 -- 提交数据
 COMMIT ;

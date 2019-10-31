@@ -1,4 +1,4 @@
-package cn.hoook.service;
+package cn.hoook.service.test;
 
 import cn.hoook.vo.Teacher;
 
@@ -11,5 +11,5 @@ public interface ITeacherService {
      * @return
      * @throws SQLException
      */
-    public Teacher login(Teacher vo)throws SQLException;
+    public Teacher login(Teacher vo)throws SQLException, Exception;
 }

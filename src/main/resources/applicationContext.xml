@@ -40,7 +40,7 @@
     </bean>
     <!-- 配置自动创建数据层实现类的开发包 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="cn.xmkeshe.dao"/>
+        <property name="basePackage" value="cn.hoook.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sessionFactory"/>
     </bean>
     <tx:annotation-driven transaction-manager="transactionManager"/>
@@ -64,7 +64,7 @@
     </tx:advice>
     <!-- 定义事物与切入点 -->
     <aop:config expose-proxy="true">
-        <aop:pointcut expression="execution(* cn.xmkeshe..service..*.*(..))" id="pointcut"/>
+        <aop:pointcut expression="execution(* cn.hoook..service..*.*(..))" id="pointcut"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut"/>
     </aop:config>
 </beans>
