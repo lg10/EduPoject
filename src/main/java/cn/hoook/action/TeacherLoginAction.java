@@ -29,7 +29,7 @@ public class TeacherLoginAction {
             vo.setTid(vo.getTid());
             vo.setPassword(new MD5Code().getMD5ofStr("{" + vo.getPassword() + "}"));
             Teacher teacher = teacherService.login(vo);
-            if (teacher.getTid() != null){ //登录成功
+            if (teacher != null){ //登录成功
                 request.getSession().setAttribute("teacher",teacher);//保存登录数据
                 response.getWriter().print("success");//回传登录结果
             }else{
