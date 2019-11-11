@@ -1,4 +1,4 @@
-package cn.hoook.service.test;
+package cn.hoook.service;
 
 import cn.hoook.utils.md5.MD5Code;
 import cn.hoook.vo.Teacher;
@@ -6,8 +6,6 @@ import junit.framework.TestCase;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import static org.junit.Assert.*;
 
 public class ITeacherServiceTest {
 

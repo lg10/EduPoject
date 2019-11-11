@@ -6,7 +6,7 @@ $(function(){
 
         form.on('submit(submitBtn)',function (obj) {
             $.ajax({
-                url:'/EduPoject/pages/back/TeacherLoginAction/login.html',
+                url:'/EduPoject/TeacherLoginAction/login.html',
                 type:'POST',
                 data:$('.layui-form').serialize(),
                 success:function (data) {

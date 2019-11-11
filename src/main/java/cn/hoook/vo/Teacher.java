@@ -7,6 +7,16 @@ public class Teacher implements Serializable {
     private String tid,name,password,phone,photo,email;
     private Integer age,flag;
     private Date lastdate;
+    private Classes classes;
+
+    public Classes getClasses() {
+        return classes;
+    }
+
+    public void setClasses(Classes classes) {
+        this.classes = classes;
+    }
+
 
     public String getTid() {
         return tid;

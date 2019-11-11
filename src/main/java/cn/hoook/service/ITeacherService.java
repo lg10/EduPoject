@@ -1,8 +1,13 @@
-package cn.hoook.service.test;
+package cn.hoook.service;
 
 import cn.hoook.vo.Teacher;
 
 import java.sql.SQLException;
+
+
+/**
+ * 这是教师类service（业务）层数据接口
+ */
 
 public interface ITeacherService {
     /**

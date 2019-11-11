@@ -7,3 +7,5 @@
         SELECT tid,flag,lastdate,photo,name FROM teacher WHERE tid=#{tid} AND password=#{password}
     </select>
 </mapper>
+
+<!--本文件是教师类需要的数据库查询语句和以前DAO实现类一个原理，实现和数据库的链接-->

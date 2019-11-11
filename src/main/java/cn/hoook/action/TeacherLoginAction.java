@@ -1,6 +1,6 @@
 package cn.hoook.action;
 
-import cn.hoook.service.test.ITeacherService;
+import cn.hoook.service.ITeacherService;
 import cn.hoook.utils.md5.MD5Code;
 import cn.hoook.utils.vaildater.Vaildater;
 import cn.hoook.vo.Teacher;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @Controller
-@RequestMapping("/pages/back/TeacherLoginAction/*")
+@RequestMapping("/TeacherLoginAction/*")
 public class TeacherLoginAction {
     /**
      * Teacher登录控制类

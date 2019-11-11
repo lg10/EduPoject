@@ -6,6 +6,9 @@ import cn.hoook.vo.Teacher;
 import java.sql.SQLException;
 
 
+/**
+ * 教师类别DAO（数据）层数据接口
+ */
 
 
     public interface ITeacherDAO extends IDAO<String, Teacher> {

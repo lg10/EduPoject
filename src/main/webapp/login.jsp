@@ -11,11 +11,7 @@
     String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
 <html>
-<style>
-    body{background-image: url("img/bg.jpg")}
-    .layui-col-md5{padding-top: 268px;}
-    h2{text-align: center;padding-bottom: 50px;padding-top: 55px;font-size: 35px;font-family: '微软雅黑'}
-</style>
+
 <head>
     <title>Title</title>
     <link rel="stylesheet" href="<%=basePath%>layui/css/layui.css">
@@ -55,6 +51,10 @@
         </div>
     </div>
 </div>
-
+<style type="text/css">
+    body{background-image: url("<%=basePath%>img/bg.jpg");background-repeat: no-repeat;background-size: 100%;}
+    .layui-col-md5{padding-top: 268px;}
+    h2{text-align: center;padding-bottom: 50px;padding-top: 55px;font-size: 35px;font-family: '微软雅黑'}
+</style>
 </body>
 </html>
